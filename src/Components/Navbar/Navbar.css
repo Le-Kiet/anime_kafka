@@ -1,0 +1,86 @@
+.Wrapper_Navbar{
+    position:relative;
+    background-color: black;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:99;
+
+}
+.Container_Navbar{
+    /* display:flexbox; */
+    justify-content: space-between;
+}
+.Nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-style: none none solid none ;
+    border-color: white;
+    border-width: 3px;
+}
+h1{
+    color:red;
+}
+button{
+    margin-left:250px;
+}
+.Button_Navbar{
+    display: flex;
+}
+.tag_film{
+    display:flex;
+    margin-left:20px;
+    color:white;
+}
+.tag_film h4{
+    margin-left:50px;
+}
+.User_icon{
+    margin-top:10px;
+}
+.Sign_in{
+  border: none;
+  border-radius:5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #f44336;
+  color:white;
+}
+.Log_Out{
+    border: none;
+    border-radius:5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    background-color: grey;
+}
+h2{
+  color:white;
+}
+h4{
+    color:white;
+    font-size:20px;
+}
+h4:hover {
+    color: blue;
+
+}
+.Sign_in{
+    width:110px;
+    height: 50px;
+}
+.Sign_in:hover{
+    background-color: #c6160a;
+}
+

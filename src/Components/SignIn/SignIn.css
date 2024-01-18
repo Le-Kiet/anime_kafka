@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin-top: 01;
+}  
+
+.form_navbar_container{
+    margin-top:400px;
+    height: 100%; 
+    position:fixed;
+    min-width: 100%;
+    min-height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sign_in_form{
+    border-style: solid;
+    border-color:red;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.75;
+    height:200px;
+    width: 300px;
+    margin:200px;
+    margin-left:450px;
+}
+input{
+    /* margin:10px; */
+    border-color: black;
+    border-radius: 6px;
+}
+
+button{
+    border-radius: 10px;
+    /* color:red; */
+    background-color: black;
+    margin-left:23px;    
+}
+.Sign_Button{
+    border-style: solid;
+    border-color: aqua;
+    width:80px;
+    height:40px;
+    border-radius:20px;
+    background-color:rgb(50, 50, 246);
+    color:white;
+}

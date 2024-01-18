@@ -1,0 +1,40 @@
+.Row_Wrapper{
+    color:white;
+    font-family: bold;
+    padding-top:20px;
+    display: flex;
+}
+.Row_Container{
+    position:relative;
+    display: flex;
+    align-items: center;
+    overflow-x:visible;
+    overflow-y: hidden;
+}
+.Image_Rows {
+    width:200px;
+    height:190px;
+    margin-right:50px;
+   
+}
+.Row_Poster{
+    width:300px;
+    max-height:100px;
+    object-fit:contain;
+    
+}
+.Row_Poster:hover{
+    transform: scale(1.08);
+}
+.Title_Movie{
+    width:310px;
+    align-items: center;
+    color:white;
+}
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+

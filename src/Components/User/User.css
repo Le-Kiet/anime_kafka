@@ -1,0 +1,24 @@
+.dropdown{
+    margin-top:1px;
+    height:20px;
+}
+.dropdown_menu{
+    width:100px;
+    text-align:center;
+    color:red;
+    padding-top:1px;
+    position:relative;
+}
+.dropdown_menu i{
+    position: relative;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    color:red;
+    font-size:25px;
+    margin-top: 10px;
+    padding-top: 1px;
+    align-items: center;
+    width:39px;
+    height:40px;
+}
